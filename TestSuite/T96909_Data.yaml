@@ -1,0 +1,43 @@
+T96909:
+    STORE_PAGE_URL: https://tuoitest2.w3spaces.com
+    GLOBAL_BROWSER: Chrome
+    Store_name: Double R Sports Complex
+    Price: $100
+    Tax: $10
+    Subtotal: $110
+    First_Name: Tuoi
+    Last_Name: Smith
+    Phone: 01234567891
+    Email: '@mailinator.com'
+    Child_Name: John Smith
+    Credit_Card_Number: '4111111111111111'
+#    Credit_Card_Number: '4111111111111111'
+    Security_Code: '111'
+    Expiration_Month: '1'
+    Expiration_Year: '2023'
+    Billing_Address: Billing Add
+    Zip_code: 84382
+    City: New York
+    State: AL
+
+T96909_1:
+    STORE_PAGE_URL: https://yourplacefull.com/double-r-sports-complex
+    GLOBAL_BROWSER: Chrome
+    Store_name: Double R Sports Complex
+    Price: $100
+    Tax: $10
+    Subtotal: $110
+    First_Name: Tuoi
+    Last_Name: Nguyen
+    Phone: 01234567891
+    Email: '@mailinator.com'
+    Child_Name: John Smith
+    Credit_Card_Number: '4111111111111111'
+#    Credit_Card_Number: '4111111111111111'
+    Security_Code: '111'
+    Expiration_Month: '1'
+    Expiration_Year: '2023'
+    Billing_Address: Billing Add
+    Zip_code: 84382
+    City: New York
+    State: AL

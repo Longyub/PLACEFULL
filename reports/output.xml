@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.9.5 on win32)" generated="20220527 14:02:30.396" rpa="false" schemaversion="2">
+<suite id="s1" name="TestSuite" source="C:\Users\AiTran\PycharmProjects\PLACEFULL\TestSuite">
+<suite id="s1-s1" name="FS" source="C:\Users\AiTran\PycharmProjects\PLACEFULL\TestSuite\FS.robot">
+<test id="s1-s1-t1" name="Test Something">
+<kw name="Navigate to Google">
+<kw name="Auto Download" library="download">
+<msg timestamp="20220527 14:02:31.617" level="INFO">Chromedriver is already installed.</msg>
+<status status="PASS" starttime="20220527 14:02:30.598" endtime="20220527 14:02:31.618"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://yourplacefull.com</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220527 14:02:31.618" level="INFO">Opening browser 'Chrome' to base url 'https://yourplacefull.com'.</msg>
+<status status="PASS" starttime="20220527 14:02:31.618" endtime="20220527 14:02:33.863"/>
+</kw>
+<status status="PASS" starttime="20220527 14:02:30.598" endtime="20220527 14:02:33.863"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20220527 14:02:38.877" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20220527 14:02:33.868" endtime="20220527 14:02:38.877"/>
+</kw>
+<status status="PASS" starttime="20220527 14:02:30.597" endtime="20220527 14:02:38.878"/>
+</test>
+<status status="PASS" starttime="20220527 14:02:30.420" endtime="20220527 14:02:38.880"/>
+</suite>
+<status status="PASS" starttime="20220527 14:02:30.398" endtime="20220527 14:02:38.882"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="TestSuite">TestSuite</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="FS">TestSuite.FS</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
